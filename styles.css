@@ -1,0 +1,47 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.key {
+    margin: 1rem;
+    border: 0.4rem solid #222;
+    text-align: center;
+    padding: 5px;
+    width: 10rem;
+    font-size: 1.5em;
+    transition: all .07s ease;
+}
+
+kbd {
+    font-size: 4rem;
+    display: block;
+    font-family: 'Courier Prime', monospace;
+    color: #fff;
+}
+
+.sound {
+    color: #FFDC00;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #FFDC00;
+}
